@@ -19,4 +19,6 @@ objects1 = regionprops(BW3, z, 'Area','Eccentricity','Perimeter'); % extract pro
 t = struct2table(objects1); 
 writetable(t, 'colonyprops.xls'); % write property info to excel
 
-[score] = PCA('colonyprops.xls');
+[score] = PCA('colonyprops.xls'); % calculate PCA score
+
+[strain1, strain2] = clustering(score, 2); % sort colonies into 2 groups based on PCA score
