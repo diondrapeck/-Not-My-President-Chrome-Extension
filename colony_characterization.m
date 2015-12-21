@@ -18,3 +18,5 @@ objects1 = regionprops(BW3, z, 'Area','Eccentricity','Perimeter'); % extract pro
 
 t = struct2table(objects1); 
 writetable(t, 'colonyprops.xls'); % write property info to excel
+
+[score] = PCA('colonyprops.xls');
