@@ -4,8 +4,8 @@
 
 I = imread('SanchezLab_Colony2.png');
 
-figure;
-imshow(I), title('Original Image')
+z = rgb2gray(I);
 
-dishfilter(I);
+filtered = dishfilter(z);
 
+segmented = colonysegmentation(BW2, z);
