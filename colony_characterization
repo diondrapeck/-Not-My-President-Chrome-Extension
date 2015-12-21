@@ -2,8 +2,10 @@
 % Diondra D. Peck
 % The Sanchez Lab at The Rowland Institute at Harvard
 
-I = imread('SanchezLab_Colony2.png'); % imread upload image file in ' ' - works for .tiff, .jpg, .bmp, and .png file types
+I = imread('SanchezLab_Colony2.png');
+
 figure;
 imshow(I), title('Original Image')
 
 dishfilter(I);
+
