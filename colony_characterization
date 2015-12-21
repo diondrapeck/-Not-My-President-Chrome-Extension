@@ -4,6 +4,6 @@
 
 I = imread('SanchezLab_Colony2.png'); % imread upload image file in ' ' - works for .tiff, .jpg, .bmp, and .png file types
 figure;
-subplot(2,2,1), imshow(I), title('Original Image')
+imshow(I), title('Original Image')
 
 dishfilter(I);
