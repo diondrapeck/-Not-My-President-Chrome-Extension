@@ -22,3 +22,6 @@ writetable(t, 'colonyprops.xls'); % write property info to excel
 [score] = PCA('colonyprops.xls'); % calculate PCA score
 
 [strain1, strain2] = clustering(score, 2); % sort colonies into 2 groups based on PCA score
+
+message = sprintf('There are %d colonies in Strain 1 and %d colonies in Strain 2.', strain1, strain2); 
+h = msgbox(message); % displays number of colonies in each strain
