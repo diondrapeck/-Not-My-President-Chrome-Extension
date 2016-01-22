@@ -1,8 +1,9 @@
-#######################################################
-#  Find per-strain colony count from petri dish image #
-#                 Author: Diondra D. Peck             #
-#                 Harvard Biorobotics Lab             #
-#######################################################
+########################################################
+#  Find per-strain colony count from petri dish image  #
+#                 Author: Diondra D. Peck              #
+#                    The Sanchez Lab                   #
+#            The Rowland Institute at Harvard          #
+########################################################
 
 import numpy as np
 import pylab
