@@ -1,2 +1,1 @@
-This Chrome extension replaces all instances of US President Donald Trump's name with the phrase "Not My President" in protest against his hateful and corrupt campaign and presidency. 
-Additionally, accessible web images with sources containing his name will be replaced with an image of a Cheeto - a reference to a pejorative nickname for the President.
+This Chrome extension replaces all instances of US President Donald Trump's name with the phrase "Not My President". 
